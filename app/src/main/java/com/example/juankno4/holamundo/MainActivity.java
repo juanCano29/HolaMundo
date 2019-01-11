@@ -12,11 +12,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button f = findViewById(R.id.miboton);
-
         f.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Toast.makeText(MainActivity.this,"Bievenido",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Hola Mundo",Toast.LENGTH_LONG).show();
             }
         });
     }
